@@ -4,9 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "optikfluffel",
-  "license": "WTFPL"
+  "license": "WTFPL",
+  "devDependencies": {
+    "parcel-bundler": "^1.10.3"
+  }
 }
