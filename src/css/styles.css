@@ -1,0 +1,61 @@
+:root {
+  /* Colors */
+  --color-highlight: hsl(0, 100%, 100%);
+  --color-background: hsl(320, 90%, 5%);
+  --color-text: hsl(200, 90%, 55%);
+  --color-link: hsl(90, 90%, 55%);
+  --color-link-hover: hsl(90, 90%, 80%);
+
+  /* Dimensions */
+  --base-font-size: 20px;
+  --max-width: 60rem;
+}
+
+html {
+  font-size: var(--base-font-size);
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-text);
+  font-family: system-ui;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: var(--color-link);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-link-hover);
+}
+
+a:active {
+  color: var(--color-highlight);
+}
+
+nav > a {
+  border: 0.2rem solid var(--color-link);
+  display: block;
+  font-weight: bold;
+  margin: 0.5rem;
+  padding: 1rem 0.5rem;
+  text-align: center;
+}
+
+nav > a:hover {
+  color: var(--color-background);
+  background-color: var(--color-link-hover);
+}
+
+nav > a:active {
+  color: var(--color-background);
+  background-color: var(--color-highlight);
+}
+
+footer {
+  font-size: 0.75rem;
+  text-align: center;
+}
