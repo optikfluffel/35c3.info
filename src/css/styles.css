@@ -5,38 +5,38 @@
   --color-text: hsl(200, 90%, 55%);
   --color-link: hsl(90, 90%, 55%);
   --color-link-hover: hsl(90, 90%, 80%);
-
-  /* Dimensions */
-  --base-font-size: 16px;
 }
 
+/* Responsive font size */
 html {
-  font-size: var(--base-font-size);
+  font-size: 16px;
 }
 
-@media (min-width: 1920px) {
-  :root {
-    --base-font-size: 32px;
-  }
-}
-
-@media (min-width: 1280px) {
-  :root {
-    --base-font-size: 28px;
+@media (min-width: 480px) {
+  html {
+    font-size: 20px;
   }
 }
 
 @media (min-width: 768px) {
-  :root {
-    --base-font-size: 24px;
+  html {
+    font-size: 24px;
   }
 }
 
-@media (min-width: 480px) {
-  :root {
-    --base-font-size: 20px;
+@media (min-width: 1280px) {
+  html {
+    font-size: 28px;
   }
 }
+
+@media (min-width: 1920px) {
+  html {
+    font-size: 32px;
+  }
+}
+
+/* Base Styling */
 
 body {
   background: var(--color-background);
@@ -59,6 +59,13 @@ a:hover {
 a:active {
   color: var(--color-highlight);
 }
+
+footer {
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+/* Shortcut List */
 
 main {
   display: flex;
@@ -90,11 +97,6 @@ main {
 
 .shortcut > a:active {
   background-color: var(--color-highlight);
-}
-
-footer {
-  font-size: 0.75rem;
-  text-align: center;
 }
 
 @media (min-width: 30rem) {
