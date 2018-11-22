@@ -5,7 +5,7 @@
 _Make sure you have [Node.js installed](https://nodejs.org)._
 
 ```sh
-# get all the npm the dependencies
+# get all the npm dependencies
 npm install
 ```
 
