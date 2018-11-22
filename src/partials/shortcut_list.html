@@ -1,7 +1,7 @@
-<nav>
-  <each loop="shortcut in shortcutList">
+<each loop="shortcut in shortcutList">
+  <div class="shortcut">
     <a href="{{ shortcut.href }}" title="{{ shortcut.description }}">
       {{ shortcut.emoji }} {{ shortcut.name }}
     </a>
-  </each>
-</nav>
+  </div>
+</each>

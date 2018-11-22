@@ -7,19 +7,43 @@
   --color-link-hover: hsl(90, 90%, 80%);
 
   /* Dimensions */
-  --base-font-size: 20px;
-  --max-width: 60rem;
+  --base-font-size: 16px;
 }
 
 html {
   font-size: var(--base-font-size);
 }
 
+@media (min-width: 1920px) {
+  :root {
+    --base-font-size: 32px;
+  }
+}
+
+@media (min-width: 1280px) {
+  :root {
+    --base-font-size: 28px;
+  }
+}
+
+@media (min-width: 768px) {
+  :root {
+    --base-font-size: 24px;
+  }
+}
+
+@media (min-width: 480px) {
+  :root {
+    --base-font-size: 20px;
+  }
+}
+
 body {
   background: var(--color-background);
   color: var(--color-text);
   font-family: system-ui;
-  margin: 0;
+  margin: 0 auto;
+  max-width: 60rem;
   padding: 0;
 }
 
@@ -36,26 +60,63 @@ a:active {
   color: var(--color-highlight);
 }
 
-nav > a {
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.shortcut {
+  box-sizing: border-box;
+  padding: 0.5rem;
+  flex: 0 100%;
+}
+
+.shortcut > a {
   border: 0.2rem solid var(--color-link);
   display: block;
   font-weight: bold;
-  margin: 0.5rem;
-  padding: 1rem 0.5rem;
+  padding: 0.75rem 0.5rem;
   text-align: center;
 }
 
-nav > a:hover {
+.shortcut > a:active,
+.shortcut > a:hover {
   color: var(--color-background);
+}
+
+.shortcut > a:hover {
   background-color: var(--color-link-hover);
 }
 
-nav > a:active {
-  color: var(--color-background);
+.shortcut > a:active {
   background-color: var(--color-highlight);
 }
 
 footer {
   font-size: 0.75rem;
   text-align: center;
+}
+
+@media (min-width: 30rem) {
+  main {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .shortcut {
+    flex: 0 50%;
+  }
+}
+
+@media (min-width: 45rem) {
+  .shortcut {
+    flex: 0 33%;
+  }
+}
+
+@media (min-width: 60rem) {
+  .shortcut {
+    flex: 0 25%;
+  }
 }
