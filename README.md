@@ -13,8 +13,6 @@ npm install
 ## 🏗 Development Server
 
 ```sh
-# start the development server
+# start the development server and open up localhost:1234
 npm start
 ```
-
-When started, you can open up [localhost:1234](http://localhost:1234).
