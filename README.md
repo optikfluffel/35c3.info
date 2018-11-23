@@ -1,11 +1,11 @@
-# [35c3.info](https://35c3.info)
+# [35C3 Refreshing Memories](https://35c3.info)
 
 [![Build Status](https://travis-ci.org/optikfluffel/35c3.info.svg?branch=master)](https://travis-ci.org/optikfluffel/35c3.info)
 [![Greenkeeper badge](https://badges.greenkeeper.io/optikfluffel/35c3.info.svg)](https://greenkeeper.io/)
 
 ## 🚀 Adding A New Shortcut
 
-To add a new shortcut to 35c3.info open up `src/shortcuts.js` and add your entry to the list.
+To add a new shortcut to [35c3.info](https://35c3.info) open up [`src/shortcuts.js`](src/shortcuts.js) and add your entry to the list.
 
 ```js
 // Example shortcut
@@ -38,4 +38,4 @@ npm install
 npm start
 ```
 
-_The live reload doesn't work, when changing `src/shortcuts.js`, I'm sorry. If you want to help with this go and have a look at [parcel-bundler/parcel#2317](https://github.com/parcel-bundler/parcel/issues/2317)._
+_The live reload doesn't work, when changing [`src/shortcuts.js`](src/shortcuts.js), I'm sorry. If you want to help with this go and have a look at [parcel-bundler/parcel#2317](https://github.com/parcel-bundler/parcel/issues/2317)._
