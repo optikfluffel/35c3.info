@@ -1,0 +1,10 @@
+{
+  "name": "35C3 Refreshing Memories",
+  "short_name": "35c3.info",
+  "description": "A list of somewhat important links regarding 35c3.",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#8CF425"
+}
