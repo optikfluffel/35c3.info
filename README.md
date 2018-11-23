@@ -1,5 +1,7 @@
 # [35c3.info](https://35c3.info)
 
+[![Build Status](https://travis-ci.org/optikfluffel/35c3.info.svg?branch=master)](https://travis-ci.org/optikfluffel/35c3.info)
+
 ## 🚀 Adding A New Shortcut
 
 To add a new shortcut to 35c3.info open up `src/shortcuts.js` and add your entry to the list.
