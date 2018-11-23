@@ -1,6 +1,6 @@
 # [35c3.info](https://35c3.info)
 
-[![Build Status](https://travis-ci.org/optikfluffel/35c3.info.svg?branch=master)](https://travis-ci.org/optikfluffel/35c3.info)
+[![Build Status](https://travis-ci.org/optikfluffel/35c3.info.svg?branch=master)](https://travis-ci.org/optikfluffel/35c3.info) [![Greenkeeper badge](https://badges.greenkeeper.io/optikfluffel/35c3.info.svg)](https://greenkeeper.io/)
 
 ## 🚀 Adding A New Shortcut
 
