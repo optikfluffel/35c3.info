@@ -1,4 +1,4 @@
-# 35c3.info
+# [35c3.info](https://35c3.info)
 
 ## 🚀 Adding A New Shortcut
 
