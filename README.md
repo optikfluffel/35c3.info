@@ -38,4 +38,4 @@ npm install
 npm start
 ```
 
-_The live reload doesn't work, when changing `src/shortcuts.js`, I'm sorry._
+_The live reload doesn't work, when changing `src/shortcuts.js`, I'm sorry. If you want to help with this go and have a look at [parcel-bundler/parcel#2317](https://github.com/parcel-bundler/parcel/issues/2317)._
