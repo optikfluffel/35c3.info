@@ -1,5 +1,5 @@
 const locals = {
-  title: '35c3.info',
+  title: '35C3 Refreshing Memories',
   shortcutList: require('./src/shortcuts')
 }
 
