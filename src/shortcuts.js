@@ -1,10 +1,12 @@
 module.exports = [
-  {
-    emoji: "📚",
-    name: "Wiki",
-    description: "35c3 Wiki",
-    href: "https://events.ccc.de/congress/2018"
-  },
+  // TODO: Add again, after it's open for the public.
+  //
+  // {
+  //   emoji: "📚",
+  //   name: "Wiki",
+  //   description: "35C3 Wiki",
+  //   href: "https://events.ccc.de/congress/2018"
+  // },
   {
     emoji: "💬",
     name: "IRC Chat",
