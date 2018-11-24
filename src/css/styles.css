@@ -79,7 +79,10 @@ main {
 }
 
 .shortcut > a {
-  border: 0.2rem solid var(--color-link);
+  /* border: 0.2rem solid var(--color-link); */
+  border: 0.2rem solid;
+  border-image: linear-gradient(to left, var(--color-link), var(--color-text));
+  border-image-slice: 1;
   display: block;
   font-weight: bold;
   padding: 0.75rem 0.5rem;
@@ -92,11 +95,11 @@ main {
 }
 
 .shortcut > a:hover {
-  background-color: var(--color-link-hover);
+  background: linear-gradient(to left, var(--color-link), var(--color-text));
 }
 
 .shortcut > a:active {
-  background-color: var(--color-highlight);
+  background: linear-gradient(to left, var(--color-link-hover), var(--color-highlight));
 }
 
 @media (min-width: 30rem) {
