@@ -1,7 +1,7 @@
 :root {
   /* Colors */
   --color-highlight: hsl(0, 100%, 100%);
-  --color-background: hsl(320, 90%, 5%);
+  --color-background: hsl(0, 0%, 0%);
   --color-text: hsl(200, 90%, 55%);
   --color-link: hsl(90, 90%, 55%);
   --color-link-hover: hsl(90, 90%, 80%);
