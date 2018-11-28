@@ -8,6 +8,12 @@ module.exports = [
   //   href: "https://events.ccc.de/congress/2018"
   // },
   {
+    emoji: "☑️",
+    name: "Congress Checklist",
+    description: "MacLemon/CongressChecklist at Github",
+    href: "https://github.com/MacLemon/CongressChecklist#congresschecklist"
+  },
+  {
     emoji: "💬",
     name: "IRC Chat",
     description: "Web client for #35c3 channel on irc.hackint.org",
