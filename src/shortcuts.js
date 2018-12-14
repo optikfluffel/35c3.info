@@ -14,6 +14,12 @@ module.exports = [
     href: "https://help.ccc.de"
   },
   {
+    emoji: "📋",
+    name: "Fahrplan",
+    description: "Schedule 35th Chaos Communication Congress",
+    href: "https://fahrplan.events.ccc.de/congress/2018/Fahrplan/"
+  },
+  {
     emoji: "☑️",
     name: "Congress Checklist",
     description: "MacLemon/CongressChecklist at Github",
