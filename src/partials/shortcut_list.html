@@ -1,7 +1,8 @@
 <each loop="shortcut in shortcutList">
   <div class="shortcut">
     <a href="{{ shortcut.href }}" title="{{ shortcut.description }}">
-      {{ shortcut.emoji }} {{ shortcut.name }}
+      {{ shortcut.emoji }}
+      <span class="text">{{ shortcut.name }}</span>
     </a>
   </div>
 </each>

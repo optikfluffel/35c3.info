@@ -4,7 +4,6 @@
   --color-background: hsl(0, 0%, 0%);
   --color-fresh: rgb(0, 132, 176);
   --color-hope: rgb(0, 163, 86);
-  --color-hope-brighter: rgb(0, 214, 114);
   --color-beboot: rgb(77, 77, 76);
 }
 
@@ -49,12 +48,12 @@ body {
 }
 
 a {
-  color: var(--color-hope);
+  color: var(--color-fresh);
   text-decoration: none;
 }
 
 a:hover {
-  color: var(--color-hope-brighter);
+  color: var(--color-hope);
 }
 
 a:active {
@@ -84,6 +83,7 @@ main {
 }
 
 .shortcut > a {
+  
   border: 0.2rem solid;
   border-image: linear-gradient(to left, var(--color-hope), var(--color-fresh));
   border-image-slice: 1;
@@ -93,8 +93,14 @@ main {
   text-align: center;
 }
 
-.shortcut > a:active,
-.shortcut > a:hover {
+.shortcut > a > .text {
+  background: linear-gradient(to left, var(--color-hope), var(--color-fresh));
+  background-clip: text;
+  color: transparent;
+}
+
+.shortcut > a:active > .text,
+.shortcut > a:hover > .text {
   color: var(--color-background);
 }
 
@@ -102,7 +108,7 @@ main {
   background: linear-gradient(to left, var(--color-hope), var(--color-fresh));
 }
 
-.shortcut > a:active {
+.shortcut > a:active > .text {
   color: var(--color-highlight);
 }
 
