@@ -18,6 +18,12 @@ module.exports = [
     href: "https://fahrplan.events.ccc.de/congress/2018/Fahrplan/"
   },
   {
+    emoji: "😇",
+    name: "Engelsystem",
+    description: "35c3 - Engelsystem",
+    href: "https://engelsystem.de/35c3/"
+  },
+  {
     emoji: "🎥",
     name: "Live Streams",
     description: "35C3 Streaming",
