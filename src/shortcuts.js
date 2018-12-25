@@ -18,6 +18,12 @@ module.exports = [
     href: "https://fahrplan.events.ccc.de/congress/2018/Fahrplan/"
   },
   {
+    emoji: "🗺",
+    name: "Indoor Map",
+    description: "c3nav - Indoor Navigation for chaos events",
+    href: "https://35c3.c3nav.de"
+  },
+  {
     emoji: "☑️",
     name: "Congress Checklist",
     description: "MacLemon/CongressChecklist at Github",
