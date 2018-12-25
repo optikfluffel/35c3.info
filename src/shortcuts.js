@@ -64,5 +64,11 @@ module.exports = [
     name: "App Android",
     description: "35C3 Schedule by Tobias Preuss",
     href: "https://play.google.com/store/apps/details?id=info.metadude.android.congress.schedule"
+  },
+  {
+    emoji: "📈",
+    name: "Dashboard",
+    description: "Grafana Dashboard of 35c3",
+    href: "https://dashboard.congress.ccc.de"
   }
 ]
