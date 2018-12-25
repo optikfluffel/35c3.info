@@ -18,6 +18,12 @@ module.exports = [
     href: "https://fahrplan.events.ccc.de/congress/2018/Fahrplan/"
   },
   {
+    emoji: "🎥",
+    name: "Live Streams",
+    description: "35C3 Streaming",
+    href: "https://streaming.media.ccc.de/35c3"
+  },
+  {
     emoji: "🗺",
     name: "Indoor Map",
     description: "c3nav - Indoor Navigation for chaos events",
