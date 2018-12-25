@@ -46,5 +46,17 @@ module.exports = [
     name: "LVB Connection Info",
     description: "Fahrplanauskunft - Leipziger Verkehrsbetriebe",
     href: "https://www.l.de/verkehrsbetriebe/fahrplan"
+  },
+  {
+    emoji: "📱",
+    name: "App iOS",
+    description: "Congress – 35C3 by Thomas Kollbach",
+    href: "https://itunes.apple.com/de/app/congress-35c3/id941205524"
+  },
+  {
+    emoji: "📱",
+    name: "App Android",
+    description: "35C3 Schedule by Tobias Preuss",
+    href: "https://play.google.com/store/apps/details?id=info.metadude.android.congress.schedule"
   }
 ]
