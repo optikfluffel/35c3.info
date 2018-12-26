@@ -74,7 +74,7 @@ module.exports = [
   {
     emoji: "⌛",
     name: "Check-in Waiting Time",
-    description: "Waiting time statistics of 33c3 and 34c3",
+    description: "Current waiting time at check-in and statistics of 33c3 and 34c3",
     href: "https://c3queue.de/"
   }
 ]
