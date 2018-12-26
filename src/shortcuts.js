@@ -70,5 +70,11 @@ module.exports = [
     name: "Dashboard",
     description: "Grafana Dashboard of 35c3",
     href: "https://dashboard.congress.ccc.de"
+  },
+  {
+    emoji: "⌛",
+    name: "Check-in Waiting Time",
+    description: "Waiting time statistics of 33c3 and 34c3",
+    href: "https://c3queue.de/"
   }
 ]
