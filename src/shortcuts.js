@@ -70,5 +70,11 @@ module.exports = [
     name: "Dashboard",
     description: "Grafana Dashboard of 35c3",
     href: "https://dashboard.congress.ccc.de"
+  },
+  {
+    emoji: "🤖",
+    name: "F-Droid Repository",
+    description: "Add 35C3 Repo to your F-Droid client",
+    href: "https://fdroid.gitlab.io/35c3/fdroid/repo/"
   }
 ]
