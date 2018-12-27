@@ -18,6 +18,12 @@ module.exports = [
     href: "https://fahrplan.events.ccc.de/congress/2018/Fahrplan/"
   },
   {
+    emoji: "🗒",
+    name: "Fahrplan (vspace.one)",
+    description: "Fahrplan von @vspaceone",
+    href: "https://fahrplan.vspace.one"
+  },
+  {
     emoji: "😇",
     name: "Engelsystem",
     description: "35c3 - Engelsystem",
@@ -36,7 +42,7 @@ module.exports = [
     href: "https://streaming.media.ccc.de/35c3/relive/"
   },
   {
-    emoji: "🐱",
+    emoji: "📺",
     name: "Media",
     description: "Media Archive",
     href: "https://media.ccc.de/"
