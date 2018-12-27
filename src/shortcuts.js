@@ -30,6 +30,18 @@ module.exports = [
     href: "https://streaming.media.ccc.de/35c3"
   },
   {
+    emoji: "🔁",
+    name: "ReLive!",
+    description: "ReLive!",
+    href: "https://streaming.media.ccc.de/35c3/relive/"
+  },
+  {
+    emoji: "🐱",
+    name: "Media",
+    description: "Media Archive",
+    href: "https://media.ccc.de/"
+  },
+  {
     emoji: "🗺",
     name: "Indoor Map",
     description: "c3nav - Indoor Navigation for chaos events",
@@ -46,6 +58,18 @@ module.exports = [
     name: "IRC Chat",
     description: "Web client for #35c3 channel on irc.hackint.org",
     href: "https://webirc.hackint.org/#irc://irc.hackint.org/#35c3"
+  },
+  {
+    emoji: "🐦",
+    name: "Twitter",
+    description: "#35c3 on Twitter",
+    href: "https://twitter.com/search?f=tweets&q=%2335c3&src=typd"
+  },
+  {
+    emoji: "📞",
+    name: "Eventphone",
+    description: "Eventphone",
+    href: "https://guru3.eventphone.de/"
   },
   {
     emoji: "🚃",
@@ -76,5 +100,17 @@ module.exports = [
     name: "Check-in Waiting Time",
     description: "Current waiting time at check-in and statistics of 33c3 and 34c3",
     href: "https://c3queue.de/"
+  },
+  {
+    emoji: "🤖",
+    name: "F-Droid Repository",
+    description: "Add 35C3 Repo to your F-Droid client",
+    href: "https://fdroid.gitlab.io/35c3/fdroid/repo/"
+  },
+  {
+    emoji: "🏁",
+    name: "35c3 CTF",
+    description: "35c3 CTF",
+    href: "https://35c3ctf.ccc.ac/"
   }
 ]
