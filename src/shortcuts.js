@@ -96,6 +96,12 @@ module.exports = [
     href: "https://dashboard.congress.ccc.de"
   },
   {
+    emoji: "⌛",
+    name: "Check-in Waiting Time",
+    description: "Current waiting time at check-in and statistics of 33c3 and 34c3",
+    href: "https://c3queue.de/"
+  },
+  {
     emoji: "🤖",
     name: "F-Droid Repository",
     description: "Add 35C3 Repo to your F-Droid client",
