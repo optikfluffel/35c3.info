@@ -42,7 +42,7 @@ module.exports = [
     href: "https://streaming.media.ccc.de/35c3/relive/"
   },
   {
-    emoji: "🐱",
+    emoji: "📺",
     name: "Media",
     description: "Media Archive",
     href: "https://media.ccc.de/"
