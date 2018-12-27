@@ -60,6 +60,12 @@ module.exports = [
     href: "https://35c3.c3nav.de"
   },
   {
+    emoji:"🍺",
+    name: "Bottle Drop Reporting",
+    description: "Bottle Drop Reporting Tool | c3bottl.es",
+    href: "https://c3bottl.es"
+  },
+  {
     emoji: "☑️",
     name: "Congress Checklist",
     description: "MacLemon/CongressChecklist at Github",
