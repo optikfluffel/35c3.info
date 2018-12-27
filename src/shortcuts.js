@@ -96,6 +96,12 @@ module.exports = [
     href: "https://dashboard.congress.ccc.de"
   },
   {
+    emoji: "🤖",
+    name: "F-Droid Repository",
+    description: "Add 35C3 Repo to your F-Droid client",
+    href: "https://fdroid.gitlab.io/35c3/fdroid/repo/"
+  },
+  {
     emoji: "🏁",
     name: "35c3 CTF",
     description: "35c3 CTF",
