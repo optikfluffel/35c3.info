@@ -48,6 +48,12 @@ module.exports = [
     href: "https://streaming.media.ccc.de/35c3/relive/"
   },
   {
+    emoji: "🗣️",
+    name: "c3subtitles",
+    description: "35c3 Subtitles",
+    href: "https://c3subtitles.de/event/35c3/"
+  },
+  {
     emoji: "📺",
     name: "Media",
     description: "Media Archive",
@@ -70,6 +76,12 @@ module.exports = [
     name: "IRC Chat",
     description: "Web client for #35c3 channel on irc.hackint.org",
     href: "https://webirc.hackint.org/#irc://irc.hackint.org/#35c3"
+  },
+  {
+    emoji: "📈",
+    name: "IRC Chat Statistics",
+    description: "Statistics of the IRC channels",
+    href: "https://35c3.ircstats.laxu.de/"
   },
   {
     emoji: "🐦",
@@ -118,6 +130,12 @@ module.exports = [
     name: "F-Droid Repository",
     description: "Add 35C3 Repo to your F-Droid client",
     href: "https://fdroid.gitlab.io/35c3/fdroid/repo/"
+  },
+  {
+    emoji: "ℹ️",
+    name: "Infobeamer",
+    description: "35c3 Info Beamer Self-Service",
+    href: "https://35c3.infobeamer.com/"
   },
   {
     emoji: "🏁",
