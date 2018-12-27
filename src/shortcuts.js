@@ -24,6 +24,12 @@ module.exports = [
     href: "https://fahrplan.vspace.one"
   },
   {
+    emoji: "💃",
+    name: "ABFahrplan",
+    description: "Schedule 35C3 Art'n'Beauty Fahrplan",
+    href: "https://fahrplan.events.ccc.de/congress/2018/Lineup/"
+  },
+  {
     emoji: "😇",
     name: "Engelsystem",
     description: "35c3 - Engelsystem",
