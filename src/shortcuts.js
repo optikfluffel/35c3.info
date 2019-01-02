@@ -90,6 +90,12 @@ module.exports = [
     href: "https://35c3.ircstats.laxu.de/"
   },
   {
+    emoji: "🐘",
+    name: "ActivePub (chaos.social)",
+    description: "#35c3 on ActivePub (Mastodon) on chaos.social",
+    href: "https://chaos.social/tags/35c3"
+  },
+  {
     emoji: "🐦",
     name: "Twitter",
     description: "#35c3 on Twitter",
