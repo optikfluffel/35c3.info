@@ -1,5 +1,11 @@
 module.exports = [
   {
+    emoji: "🧩",
+    name: "Foundation Talks",
+    description: "A list a the 35c3 Foundation Talks",
+    href: "https://write.as/x67b6qeqmcl9e.md"
+  },
+  {
     emoji: "🚨",
     name: "Help",
     description: "Support-Angebote | Hilfe auf dem Congress",
@@ -66,7 +72,7 @@ module.exports = [
     href: "https://35c3.c3nav.de"
   },
   {
-    emoji:"🍺",
+    emoji: "🍺",
     name: "Bottle Drop Reporting",
     description: "Bottle Drop Reporting Tool | c3bottl.es",
     href: "https://c3bottl.es"
